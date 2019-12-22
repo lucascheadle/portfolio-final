@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HypeVision Contact</title>
+    <script src="https://kit.fontawesome.com/49a0808614.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CJosefin+Sans%7COxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/hypevision.jpeg"
+        width="350"
+        alt="HypeVision">
+    </div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About</a>
+      <a href="video.html">Video</a>
+      <a href="music.html">Music</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <h1>Contact HypeVision</h1>
+      <div class="contact">
+        <form method="GET">
+          <label>Your name:
+            <input type="text" name="applicantName">
+          </label>
+          <label>Your email:
+            <input type="email" name="applicantEmail">
+          </label>
+          <fieldset class="checkbox">
+            <legend>What medium are you interested in hiring HypeVision?</legend>
+            <label>Video
+              <input type="checkbox" name="type" value="video">
+              <span class="checkmark"></span>
+            </label>
+            <label>Audio
+              <input type="checkbox" name="type" value="audio">
+              <span class="checkmark"></span>
+            </label>
+            <label>Music
+              <input type="checkbox" name="type" value="music">
+              <span class="checkmark"></span>
+            </label>
+          </fieldset>
+          <label>Please describe your project and how HypeVision might help?
+            <textarea name="applicantReason" rows="4"
+              cols="50"></textarea>
+          </label>
+          <label>How soon does your project need to be completed?</label>
+            <select name="hours">
+              <option value="">Please select</option>
+              <option value="some">Immediately</option>
+              <option value="some">2-4 weeks</option>
+              <option value="some">4 weeks or more</option>
+            </select>
+          <fieldset>
+            <legend>Are you interested in joining the HypeVision crew?</legend>
+            <label>Yes
+              <input type="radio" name="special" value="yes">
+            </label>
+            <label>No
+              <input type="radio" name="special" value="no">
+            </label>
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer">
+        <p>Created by HypeVision</p>
+        <div class="social">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
+  </body>
+</html>
